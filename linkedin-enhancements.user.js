@@ -18,8 +18,10 @@
       item.style.color = '#fff';
       item.style.backgroundColor = '#f00';
       item.style.padding = '5px';
-      const parent = item.closest('.discovery-templates-entity-item');
-      parent.style.opacity = '0.5';
+      const parent = item.closest('.discovery-templates-entity-item, .jobs-search-results__list-item');
+      if (parent !== null) {
+       	parent.style.opacity = '0.5';
+      }
     });
   }, 1000)
 	
