@@ -12,7 +12,7 @@
     return;
   }
   
-	const jobStates = document.querySelectorAll('.job-card-container__footer-job-state');
+  const jobStates = document.querySelectorAll('.job-card-container__footer-job-state');
   jobStates.forEach((item) => {
     item.style.color = '#f00';    
   });
