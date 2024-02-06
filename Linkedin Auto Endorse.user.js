@@ -11,10 +11,14 @@
   if (host !== 'www.linkedin.com') {
     return;
   }
-  
-  const jobStates = document.querySelectorAll('.job-card-container__footer-job-state');
-  jobStates.forEach((item) => {
-    item.style.color = '#f00';    
-  });
+
+  setTimeout(() => {
+    const jobStates = document.querySelectorAll('.job-card-container__footer-job-state');
+    jobStates.forEach((item) => {
+      item.style.color = '#fff';
+      item.style.backgroundColor = '#f00';
+      item.style.padding = '5px';
+    });
+  }, 1000)
 	
 })();
