@@ -1,2 +1,2 @@
-# linkedin-auto-endorse-skills-script
-Linkedin script to auto endorse someone's skills (for OrangeMonkey)
+# linkedin-enhacements
+Linkedin script (for OrangeMonkey) to brign some extra features
