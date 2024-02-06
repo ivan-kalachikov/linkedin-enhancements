@@ -12,9 +12,8 @@
     return;
   }
 
-  setTimeout(() => {
+  setInterval(() => {
     const jobStates = document.querySelectorAll('.job-card-container__footer-job-state');
-    console.log('test');
     jobStates.forEach((item) => {
       item.style.color = '#fff';
       item.style.backgroundColor = '#f00';
